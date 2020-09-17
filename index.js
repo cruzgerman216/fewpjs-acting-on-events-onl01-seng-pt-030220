@@ -10,6 +10,7 @@ function moveDodgerLeft() {
 function moveDodgerRight() {
   let rightNumbers = dodger.style.right.replace("px", "");
   let right = parseInt(rightNumbers, 10);
+  console.log(right);
 
   if (right > 0) {
     console.log("gha");
