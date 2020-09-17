@@ -14,7 +14,7 @@ function moveDodgerRight() {
 
   if (right > 0) {
     console.log("gha");
-    dodger.style.right = `${right + 1}px`;
+    dodger.style.left = `${left + 1}px`;
   }
 }
 
